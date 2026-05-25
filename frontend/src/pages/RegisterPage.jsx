@@ -70,7 +70,7 @@ const RegisterPage = () => {
                 value={form.name}
                 onChange={handleChange}
                 required
-                placeholder="John Doe"
+                placeholder="Your full name"
                 className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2.5
                            text-white text-sm placeholder-gray-600 focus:outline-none
                            focus:border-blue-500 transition-colors"
@@ -85,7 +85,7 @@ const RegisterPage = () => {
                 value={form.email}
                 onChange={handleChange}
                 required
-                placeholder="you@example.com"
+                placeholder="your.email@example.com"
                 className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2.5
                            text-white text-sm placeholder-gray-600 focus:outline-none
                            focus:border-blue-500 transition-colors"
